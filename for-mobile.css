@@ -1,10 +1,12 @@
 @media only screen and (min-width: 200px) and (max-width: 576px) {
     body {
         margin: 0px 1px;
+        padding-left: 2px;
         background-color: rgb(36, 35, 35);
     }
     #navbar-section{
-        margin: 0px 1px;
+        margin: 0px 5px;
+        padding-left: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -22,6 +24,12 @@
         /* color: white; */
     }
 
+    .info-bio h1{
+        font-size: 25px;
+    }
+    .info-text{
+        font-size: 10px;
+    }
     .cv-download {
         width: 140px;
     }
@@ -37,7 +45,9 @@
     .skill {
         flex-direction: column;
     }
-
+    .social-media{
+        margin-bottom: 20px;
+    }
     .experience {
         flex-direction: column;
         align-items: center;
@@ -57,9 +67,20 @@
         left: 5%;
     }
     .ux-items{
+        margin: 0px 0px;
         flex-direction: column;
+        align-items: center;
     }
     .contact-me{
         padding: 0px 5px;
+    }
+    .contact-me h1{
+        font-size: 20px;
+    }
+    .contact-me h3{
+        font-size: 15px;
+    }
+    .name{
+        width: 80px;
     }
 }
