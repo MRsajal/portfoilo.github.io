@@ -33,7 +33,9 @@
     .cv-download {
         width: 140px;
     }
-
+    .hireme{
+        margin-left: 80px;
+    }
     .bio {
         flex-direction: column;
     }
@@ -44,14 +46,22 @@
 
     .skill {
         flex-direction: column;
+        align-items: center;
     }
     .social-media{
         margin-bottom: 20px;
+        margin-left: 95px;
     }
     .experience {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .job-experience{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 60px;
     }
     .awards{
         display: inline;
@@ -73,6 +83,7 @@
     }
     .contact-me{
         padding: 0px 5px;
+        margin: 4px 0px;
     }
     .contact-me h1{
         font-size: 20px;

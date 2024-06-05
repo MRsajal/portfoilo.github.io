@@ -28,6 +28,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.bio-img{
+    margin-top: 70px;
+}
 .info-bio{
     display: flex;
     flex-direction: column;
@@ -233,6 +236,7 @@ body{
 .ending{
     display: flex;
     margin-top: 30px;
+    margin-bottom: 20px;
     color: white;
     align-items: center;
     justify-content: center;
